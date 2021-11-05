@@ -154,8 +154,9 @@
 
       main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.3fr 0.8fr;
         grid-template-rows: repeat(auto-fit, auto);
+        column-gap: 2rem;
       }
 
       .image-center,
@@ -166,13 +167,13 @@
 
       .image-center {
         grid-column: 1/2;
-        grid-row: 1/6;
-        padding-right: 2rem;
+        grid-row: 1/7;
       }
 
       h1 {
         grid-row: 2/3;
         font-size: 2rem;
+        align-self:flex-end;
       }
 
       p {
