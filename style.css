@@ -150,13 +150,20 @@
         background-image: url("images/bg-desktop.svg");
         background-position: center;
         background-size: cover;
+        justify-content: space-between;
       }
 
+      body>*{
+        margin: 0;
+      }
       main {
         display: grid;
         grid-template-columns: 1.3fr 0.8fr;
         grid-template-rows: repeat(auto-fit, auto);
         column-gap: 2rem;
+      }
+      .header{
+        margin-top: 3rem;
       }
 
       .image-center,
@@ -192,8 +199,8 @@
 
       .register {
         justify-self: flex-start;
-      }
-
+      } 
+  
       .icons {
         align-self: flex-end;
       }
